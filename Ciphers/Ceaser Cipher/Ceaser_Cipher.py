@@ -3,8 +3,8 @@ import binascii
 
 ### SIZES
 CANVAS_HEIGHT = 80
-CANVAS_WIDTH = 350
-WINDOW_WIDTH = 350
+CANVAS_WIDTH = 400
+WINDOW_WIDTH = 400
 WINDOW_HEIGHT = 140
 
 ###
@@ -67,7 +67,7 @@ win.title("Ceaser Cipher")
 
 cypher_level = IntVar(win, value=0)
 
-label = Label(win, text="Enter text to cypher and adjust the level of cypher")
+label = Label(win, text="Enter text to cipher and adjust the level of cipher")
 canvas = Canvas(win, bg=BACKGROUND_COLOR, height=CANVAS_HEIGHT, width=CANVAS_WIDTH)
 slider = Scale(win, from_=0, to=26, variable=cypher_level, orient=HORIZONTAL, command=cypher, length=200)
 
@@ -80,7 +80,8 @@ win.bind("<Right>", lambda event: adjust(1))
 
 
 user_text = Entry(canvas, fg=BLUE, width=CANVAS_WIDTH // 10)
-cyphered_text = canvas.create_text(CANVAS_WIDTH // 4, CANVAS_HEIGHT // 1.5,
+cyphered_text = canvas.create_text(20, CANVAS_HEIGHT // 1.5,
+                                   anchor='w',
                                    font=("consolas", 10),
                                    text="Cyphered text:",
                                    fill="red"
