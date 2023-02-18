@@ -1,3 +1,3 @@
 # My Python Projects
 ## Description
-Hello, made the Snake game using Python Code, getting inspiration from other creators and I expeneded the game for 2 players gamyplay 
+Hello, here i made a few projects in which i liked to show 
