@@ -1,3 +1,3 @@
-# Snake-For-2
+# My Python Projects
 ## Description
-I made the Snake game using Python Code, getting inspiration from other creators and I expeneded the game for 2 players gamyplay 
+Hello, made the Snake game using Python Code, getting inspiration from other creators and I expeneded the game for 2 players gamyplay 
